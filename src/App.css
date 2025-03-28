@@ -1,0 +1,27 @@
+
+.body{
+  
+  position: absolute;
+  width:100%;
+  top:0;
+max-height: auto;
+min-height: 733px;
+}
+body{
+  background-color:#ecf1fd; ;
+}
+.bottom-nav{
+  position: absolute;
+  bottom: -80px;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(126, 170, 214);
+  height: 80px;
+}
+.bottom-image{
+  height: 55px;
+    width:55px;
+}

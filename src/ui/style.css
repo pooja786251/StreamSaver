@@ -1,0 +1,129 @@
+
+.container{
+    display: grid;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:10px;
+ 
+}
+.input{
+    width: 100%;
+
+height: 40px;
+border-radius: 10px 0 0 10px;
+border:none;
+font-size: 20px;
+padding-left: 10px;
+
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+    width:100%;
+ 
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    color:rgb(176, 108, 239)
+}
+.search{
+    width: 50px;
+    height: 40px;
+    border-radius: 0 10px 10px 0;
+   border: none;
+}
+.input:focus,.input:focus+.search{
+    outline: 3px solid rgb(0, 55, 128);
+   
+}
+.glyphicon-search{
+    font-size: 26px;
+  
+}
+.afterclicking{
+    width: 100%;
+    height: auto;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.thumbnail{
+    width:400px;
+    height: 250px;
+    border:none;
+    border-radius: 15px;
+}
+.thumbnail:hover{
+   box-shadow: 1px 1px 10px blue;
+}
+.data-title{
+ text-align: center;
+    width: 60%;   
+}
+.title-text{
+    text-align: center;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-div{
+   
+    background-color: red;
+    width: 60%;
+  text-align: center;
+    height: auto;
+    margin-top: 100px;
+}
+.video-button{
+    display: flex;
+    gap:20px;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:-10px 0 0 -16px;
+    /* background-color: red; */
+}
+.download-and-show{
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+   
+    color:white
+}
+@media screen and (max-width:318px){
+    .search-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:0px;
+        width:90%;
+        margin-left: 20px;
+     
+    }
+    .input{
+        width: 90%;
+    
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    border:none;
+    font-size: 20px;
+    padding-left: 10px;
+    
+    }
+}
+@media screen and (max-width:400px){
+    .thumbnail{
+        width: 90vw;
+    }
+}
